@@ -1,0 +1,10 @@
+1. Apply ingress-deploy.yaml
+
+2. Apply metalib-native.yaml
+
+3. Apply metalib-conf.yaml
+   set addresses: as you free IP address form you IP pool
+
+ kubectl -n ingress-nginx get svc  
+ This should set EXTERNAL-IP of LoadBalancer TYPE
+
